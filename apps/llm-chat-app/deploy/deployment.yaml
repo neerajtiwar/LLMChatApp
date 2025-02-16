@@ -23,7 +23,7 @@ spec:
           env:
           image: docker.io/neerajtiwari/llm-chat-app:latest
           ports:
-            - containerPort: 8005
+            - containerPort: 8501
           resources:
             requests:
               cpu: 20m
