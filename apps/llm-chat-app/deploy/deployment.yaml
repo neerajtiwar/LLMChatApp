@@ -4,7 +4,7 @@ metadata:
   labels:
     app.kubernetes.io/component: llm-chat-app
     app.kubernetes.io/name: llm-chat-app
-    app.kubernetes.io/part-of:
+    app.kubernetes.io/part-of: llm-chat-app
 spec:
   replicas: 1
   selector:
